@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kabelo Mpofu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Contact Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact-intro">
+            <h2>Get In Touch</h2>
+            <p>If you have any questions, comments, or would like to discuss a project, please feel free to reach out to me using the form below or the contact information provided.</p>
+        </section>
+        <section class="contact-form-section">
+            <h3>Contact Form</h3>
+            <form id="contact-form" action="mailto:kabelo@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h3>Additional Contact Information</h3>
+            <p><strong>Email:</strong> kabelo@example.com</p>
+            <p><strong>Phone:</strong> +971 456 7890</p>
+        </section>
+
+        <section class="location-map">
+            <h3>Our Location</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.013646211344!2d-122.4194154846813!3d37.77492927975961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818b7c7b1bd1%3A0x2c3b74b8efb52b27!2s123+Tech+Street%2C+San+Francisco%2C+CA+94103%2C+USA!5e0!3m2!1sen!2s!4v1530124958471"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+       
+    </main>
+    <footer>
+        <p>&copy; 2024 Kabelo Mpofu. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
